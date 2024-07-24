@@ -1,0 +1,60 @@
+.restaurant{
+      background-image: url(img/26.jpg);
+  
+  /* Full height */
+    height: 590px;
+    width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+    }
+    .card-title{
+      padding-top: 95px;
+    }
+.iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+        }
+.iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        
+        }
+        svg{
+  width: 28px;
+  zoom: 2;
+ }
+ .info-div:hover{
+   background-color: red
+ }
+ .nav-link:hover {
+    color: red;
+    border-bottom: 1px solid red;
+  }
+  .img-overl{
+    position: relative;
+    overflow: hidden; /* Ensure content doesn't overflow the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  .img-overl{
+    transition: transform 0.3s ease;
+   /* Ensure image fits the container */
+  
+  }
+  .img-overl:hover {
+    transform: scale(0.9);
+  }
+  .info-text:hover{
+    color: white;
+    padding: 10px;
+  }
